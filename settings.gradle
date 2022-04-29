@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RxMVVMCleanArchitecture"
 include ':app'
+include ':domain'
+include ':data'
