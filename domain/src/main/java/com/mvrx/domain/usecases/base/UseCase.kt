@@ -8,7 +8,7 @@ abstract class UseCase<in P, R> {
     /**
      * Executes the current use case.
      */
-    protected abstract fun execute(
+    abstract fun execute(
         param: P,
         onStart: () -> Unit = {},
         onSuccess: (r: R) -> Unit,
